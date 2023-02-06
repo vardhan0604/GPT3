@@ -1,0 +1,93 @@
+.hero h1{
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+/* or 121% */
+
+letter-spacing: -0.04em;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+padding-bottom: 2rem;
+}
+.hero p{
+    font-family: var(--font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+padding-right: 5.6rem;
+padding-bottom: 3rem;
+color: #81AFDD;
+}
+.hero{
+    display: flex;
+    padding-left: 5.6rem;
+    padding-right: 5.6rem;
+   
+    align-items: center;
+    justify-content: center;
+}
+.input-sec{
+    display: flex;
+}
+.heroinput{
+    width: 70%;
+    background: #052D56;
+border-radius: 5px 0px 0px 5px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+border: none;
+outline: none;
+color: #3D6184;
+padding: 1rem;
+}
+.hero button{
+    background: #FF4820;
+    border-radius: 0px 5px 5px 0px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+border: none;
+color: #FFFFFF;
+cursor: pointer;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.testinomial{
+    display: flex;
+    margin-top: 2rem;
+    gap: 1.4rem;
+    
+}
+.testinomial p{font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.testinomial img{
+    height: 1.8rem;
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+    padding-bottom: 4em;
+}
+.comp img{
+    height: 1.6rem;
+}

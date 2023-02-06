@@ -1,0 +1,39 @@
+.nav{
+    padding: 1.6rem 5.6rem 1.6rem 5.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 4.8rem;
+    align-items: center;
+}
+.logo{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.nav-links{
+    display: flex;
+    gap: 2.4rem;
+    transition: all 0.2;
+    
+    
+}
+.nav-links a:hover{
+    color: #FF4820;
+    transform: scale(1.09);
+    
+}
+.nav-buttons{
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    font-weight: 600;
+}
+.nav-button{
+    border-radius: 5px;
+    background-color: #FF4820;
+    padding: 0.6rem 1rem;
+}

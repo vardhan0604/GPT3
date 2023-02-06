@@ -1,0 +1,110 @@
+.Whatgpt3{
+    
+
+    padding: 3rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    margin: 6rem;
+}
+.Whatgpt3-heading {
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+    padding-bottom: 4.8rem;
+}
+.Whatgpt3-heading h2{
+    white-space: nowrap; padding-right: 20rem;
+    font-weight: 800;
+font-size: 2rem;
+}
+
+.Whatgpt3-heading p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+}
+.tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4.8rem;
+}
+.tag h2{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    /* or 132% */
+    
+    
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.tag a{
+    color: #F49867;
+}
+.usecase{
+    display: flex;
+    padding-bottom: 3.2rem
+}
+
+.usecase h2{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+/* line-height: 75px; */
+/* identical to box height, or 312% */
+
+letter-spacing: -0.04em;
+
+color: #FFFFFF;
+padding-bottom: 3.2rem;
+}
+
+.usecase p{
+    
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+}
+.border{
+    width: 38px;
+    height: 4px;
+    margin-bottom: 1.2rem;
+    
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+}
