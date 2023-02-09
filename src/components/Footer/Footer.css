@@ -1,0 +1,71 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    background: #031B34;
+    padding-top: 3rem;
+}
+
+.footer h1{
+    inline-size:  52rem;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+/* or 121% */
+margin-bottom: 3rem;
+text-align: center;
+letter-spacing: -0.04em;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+}
+.footer-access{
+    border: 1px solid #FFFFFF;
+    padding: 1.6rem 2rem;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.footer-left{
+    padding-right: 5rem;
+}
+footer h2{
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+footer p{
+    inline-size: 16rem;
+}
+footer a{
+    inline-size: 10rem;
+}
+footer h4{
+    font-size: 1.2rem;
+}
+
+.footer span{
+    font-family: 'Gilroy-Medium';
+    opacity: 0.5;
+}

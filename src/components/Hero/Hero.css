@@ -12,7 +12,7 @@ background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
-text-fill-color: transparent;
+/* text-fill-color: transparent; */
 
 padding-bottom: 2rem;
 }
@@ -28,8 +28,8 @@ color: #81AFDD;
 }
 .hero{
     display: flex;
-    padding-left: 5.6rem;
-    padding-right: 5.6rem;
+    padding-left: 7.6rem;
+    padding-right: 7.6rem;
    
     align-items: center;
     justify-content: center;

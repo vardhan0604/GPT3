@@ -1,0 +1,57 @@
+.blog{
+    
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+}
+
+.blog img{
+    width: 100%;
+    height: 100%;
+    background: none;
+    display: block;
+}
+
+.blog p{
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 11.649px;
+line-height: 35px;
+/* identical to box height, or 300% */
+
+
+color: #FFFFFF;
+
+}
+
+.blog h3{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 25.11px;
+line-height: 30px;
+/* or 121% */
+
+
+color: #FFFFFF;
+margin-bottom: 4.8rem;
+}
+.blog-text{
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+
+}
+.bs{
+    background: #042C54;
+}
+.blog a{
+    padding-left: 1.4rem;
+    margin-bottom:  1.4rem;
+    display: inline;
+    /* position: absolute;
+    bottom: 1.4rem; */
+}

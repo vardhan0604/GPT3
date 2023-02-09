@@ -1,3 +1,7 @@
 export { default as Navbar } from './Navbar/Navbar'
 export { default as Hero } from './Hero/Hero'
 export { default as Whatgpt3 } from './Whatgpt3/Whatgpt3'
+export { default as Features } from './Features/Features'
+export { default as Possibility } from './Possibility/Possibility'
+export { default as Blogs } from './Blogs/Blogs'
+export { default as Footer } from './Footer/Footer'
